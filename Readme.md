@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DockLayoutManagerExt.cs](./CS/DXDockingForLayoutPurposes/DockLayoutManagerExt.cs) (VB: [DockLayoutManagerExt.vb](./VB/vb_DXDockingForLayoutPurposes/DockLayoutManagerExt.vb))
+* [Helpers.cs](./CS/DXDockingForLayoutPurposes/Helpers.cs) (VB: [Helpers.vb](./VB/vb_DXDockingForLayoutPurposes/Helpers.vb))
+* [MainWindow.xaml](./CS/DXDockingForLayoutPurposes/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/vb_DXDockingForLayoutPurposes/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/DXDockingForLayoutPurposes/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/vb_DXDockingForLayoutPurposes/MainWindow.xaml))
+<!-- default file list end -->
 # How to limit LayoutGroup customization at runtime
 
 
