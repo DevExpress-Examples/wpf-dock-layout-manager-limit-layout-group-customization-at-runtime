@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXDockingForLayoutPurposes", "DXDockingForLayoutPurposes\DXDockingForLayoutPurposes.csproj", "{8AEEBF3A-F021-4DB1-BDA4-B1F93B305ABF}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXDockingForLayoutPurposes", "DXDockingForLayoutPurposes\DXDockingForLayoutPurposes.Net5.csproj", "{8AEEBF3A-F021-4DB1-BDA4-B1F93B305ABF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
