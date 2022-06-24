@@ -9,7 +9,7 @@ This example limits [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf
 
 <img src="https://user-images.githubusercontent.com/12169834/175359371-47c8a0aa-9d45-470d-9f9f-a830ac39a423.png" width=900px/>
 
-This example contains a [DockLayoutManager](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager) class descendant and the attached `DisableCrossingGroupBoundaries` property. You can attach the `DisableCrossingGroupBoundaries` property only to the [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutGroup).
+The example contains a [DockLayoutManager](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager) class descendant and the attached `DisableCrossingGroupBoundaries` property. You can attach the `DisableCrossingGroupBoundaries` property only to the [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutGroup).
 
 In this case, the [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutGroup) with the property assigned to `true` allows any customization and prevents moving inner elements outside [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutGroup) boundaries. For the [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutGroup) without this property, the default logic is used for arranging elements.
 
