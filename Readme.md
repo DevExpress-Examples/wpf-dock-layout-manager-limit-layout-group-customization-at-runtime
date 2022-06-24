@@ -25,4 +25,4 @@ In this case, a [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Doc
 
 ## Documentation
 
-- [Manage Dock Panels in Code](https://docs.devexpress.com/WPF/15540/controls-and-libraries/layout-management/dock-windows/miscellaneous/managing-dock-panels-in-code)
+- [Runtime Layout Customization](http://docs.devexpress.devx/WPF/7222/)
