@@ -1,8 +1,8 @@
 <dxr:DXRibbonWindow
-    x:Class="vb_DXDockingForLayoutPurposes.MainWindow"
+    x:Class="DXDockingForLayoutPurposes.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="clr-namespace:vb_DXDockingForLayoutPurposes"
+    xmlns:local="clr-namespace:DXDockingForLayoutPurposes"
     xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
     xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon"
     xmlns:dxd="http://schemas.devexpress.com/winfx/2008/xaml/docking"
