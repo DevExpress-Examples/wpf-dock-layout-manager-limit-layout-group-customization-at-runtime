@@ -1,0 +1,93 @@
+<dx:ThemedWindow
+    x:Class="DXDockingForLayoutPurposes.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:DXDockingForLayoutPurposes"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    xmlns:dxd="http://schemas.devexpress.com/winfx/2008/xaml/docking"
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+    xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+    xmlns:collections="clr-namespace:System.Collections;assembly=mscorlib"
+    Title="DXApplication" Height="700" Width="1100"
+    SnapsToDevicePixels="True" UseLayoutRounding="True"
+    dx:ThemeManager.ThemeName="VS2019Light">
+    <dx:ThemedWindow.Resources>
+    </dx:ThemedWindow.Resources>
+    <dxd:DockLayoutManager x:Name="rootDockLayoutManager" AllowCustomization="True">
+        <dxd:LayoutGroup>
+            <dxd:DocumentPanel>
+                <dxd:DockLayoutManager>
+                    <dxd:LayoutGroup Name="generalLayoutGroup" GroupBorderStyle="GroupBox" ShowCaption="True" Caption="General" Orientation="Vertical">
+                        <dxd:LayoutControlItem Name="incidentNumber" Caption="Incident Number" VerticalAlignment="Top">
+                            <dxe:TextEdit/>
+                        </dxd:LayoutControlItem>
+                        <dxd:LayoutControlItem Name="incidentDate" Caption="Incident Date" VerticalAlignment="Top">
+                            <dxe:DateEdit/>
+                        </dxd:LayoutControlItem>
+                    </dxd:LayoutGroup>
+                </dxd:DockLayoutManager>
+            </dxd:DocumentPanel>
+            <dxd:DocumentPanel>
+                <local:DockLayoutManagerExt>
+                    <dxd:LayoutGroup Name="victimLayoutGroup" GroupBorderStyle="GroupBox" ShowCaption="True" Caption="Victim" Orientation="Vertical" VerticalAlignment="Top" >
+                        <dxd:LayoutControlItem Name="victimName" Caption="First Name" VerticalAlignment="Top">
+                            <dxe:TextEdit/>
+                        </dxd:LayoutControlItem>
+                        <dxd:LayoutControlItem Name="victimDob" Caption="Date of Birth" VerticalAlignment="Top">
+                            <dxe:DateEdit/>
+                        </dxd:LayoutControlItem>
+                        <dxd:LayoutGroup Name="victimHomeLayoutGroup" GroupBorderStyle="GroupBox" ShowCaption="True" Caption="Home Location" Orientation="Vertical" VerticalAlignment="Top"  local:Helper.DisableCrossingGroupBoundaries="True">
+                            <dxd:LayoutGroup ItemHeight="0.44*" Caption="lgAddress">
+                                <dxd:LayoutControlItem Name="victimHomeAddress" Caption="Address" VerticalAlignment="Top">
+                                    <dxe:TextEdit/>
+                                </dxd:LayoutControlItem>
+                            </dxd:LayoutGroup>
+                            <dxd:LayoutGroup Caption="test" Orientation="Horizontal" local:Helper.DisableCrossingGroupBoundaries="True">
+                                <dxd:LayoutControlItem Name="victimHomeCity" Caption="City" VerticalAlignment="Top" >
+                                    <dxe:TextEdit/>
+                                </dxd:LayoutControlItem>
+                                <dxd:LayoutControlItem Name="victimParam1" Caption="Param1" VerticalAlignment="Top" >
+                                    <dxe:TextEdit/>
+                                </dxd:LayoutControlItem>
+                                <dxd:LayoutControlItem Name="victimParam2" Caption="Param2" VerticalAlignment="Top" >
+                                    <dxe:TextEdit/>
+                                </dxd:LayoutControlItem>
+                                <dxd:LayoutControlItem Name="victimHomeState" Caption="State" VerticalAlignment="Top" ItemWidth="115">
+                                    <dxe:TextEdit/>
+                                </dxd:LayoutControlItem>
+                            </dxd:LayoutGroup>
+                            <dxd:LayoutGroup ItemHeight="0.72*" Caption="lgZip">
+                                <dxd:LayoutControlItem Name="victimHomeZipCode" Caption="ZipCode" VerticalAlignment="Top" ItemWidth="150">
+                                    <dxe:TextEdit/>
+                                </dxd:LayoutControlItem>
+                                <dxd:EmptySpaceItem></dxd:EmptySpaceItem>
+                            </dxd:LayoutGroup>
+                        </dxd:LayoutGroup>
+                        <dxd:LayoutGroup Name="victimEmployerLayoutGroup" GroupBorderStyle="GroupBox" ShowCaption="True" Caption="Employer Location" Orientation="Vertical" VerticalAlignment="Top">
+                            <dxd:LayoutGroup>
+                                <dxd:LayoutControlItem Name="victimEmployerAddress" Caption="Address" VerticalAlignment="Top">
+                                    <dxe:TextEdit/>
+                                </dxd:LayoutControlItem>
+                            </dxd:LayoutGroup>
+                            <dxd:LayoutGroup>
+                                <dxd:LayoutControlItem Name="victimEmployerCity" Caption="City" VerticalAlignment="Top">
+                                    <dxe:TextEdit/>
+                                </dxd:LayoutControlItem>
+                                <dxd:LayoutControlItem Name="victimEmployerState" Caption="State" VerticalAlignment="Top" ItemWidth="115">
+                                    <dxe:TextEdit/>
+                                </dxd:LayoutControlItem>
+                            </dxd:LayoutGroup>
+                            <dxd:LayoutGroup>
+                                <dxd:LayoutControlItem Name="victimEmployerZipCode" Caption="ZipCode" VerticalAlignment="Top" ItemWidth="150">
+                                    <dxe:TextEdit/>
+                                </dxd:LayoutControlItem>
+                                <dxd:EmptySpaceItem></dxd:EmptySpaceItem>
+                            </dxd:LayoutGroup>
+                        </dxd:LayoutGroup>
+                    </dxd:LayoutGroup>
+                </local:DockLayoutManagerExt>
+            </dxd:DocumentPanel>
+        </dxd:LayoutGroup>
+    </dxd:DockLayoutManager>
+</dx:ThemedWindow>
