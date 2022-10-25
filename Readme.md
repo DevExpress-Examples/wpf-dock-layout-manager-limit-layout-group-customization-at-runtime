@@ -26,4 +26,4 @@ In this case, a [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Doc
 
 ## Documentation
 
-- [Runtime Layout Customization](http://docs.devexpress.devx/WPF/7222/)
+- [Runtime Layout Customization](https://docs.devexpress.com/WPF/7223/controls-and-libraries/layout-management/dock-windows/layout-items#runtime-layout-customization)
