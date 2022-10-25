@@ -18,10 +18,10 @@ In this case, a [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Doc
 <!-- default file list -->
 ## Files to Look At
 
-* [DockLayoutManagerExt.cs](./CS/DXDockingForLayoutPurposes/DockLayoutManagerExt.cs) (VB: [DockLayoutManagerExt.vb](./VB/vb_DXDockingForLayoutPurposes/DockLayoutManagerExt.vb))
-* [Helpers.cs](./CS/DXDockingForLayoutPurposes/Helpers.cs) (VB: [Helpers.vb](./VB/vb_DXDockingForLayoutPurposes/Helpers.vb))
-* [MainWindow.xaml](./CS/DXDockingForLayoutPurposes/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/vb_DXDockingForLayoutPurposes/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/DXDockingForLayoutPurposes/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/vb_DXDockingForLayoutPurposes/MainWindow.xaml.vb))
+* [DockLayoutManagerExt.cs](./CS/DXDockingForLayoutPurposes/DockLayoutManagerExt.cs) (VB: [DockLayoutManagerExt.vb](./VB/DXDockingForLayoutPurposes/DockLayoutManagerExt.vb))
+* [Helpers.cs](./CS/DXDockingForLayoutPurposes/Helpers.cs) (VB: [Helpers.vb](./VB/DXDockingForLayoutPurposes/Helpers.vb))
+* [MainWindow.xaml](./CS/DXDockingForLayoutPurposes/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXDockingForLayoutPurposes/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/DXDockingForLayoutPurposes/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXDockingForLayoutPurposes/MainWindow.xaml.vb))
 <!-- default file list end -->
 
 ## Documentation
